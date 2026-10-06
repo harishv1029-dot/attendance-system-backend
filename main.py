@@ -17,7 +17,7 @@ from database import get_connection, create_tables
 
 load_dotenv()
 
-RESEND_API_KEY = os.getenv("RESEND_API_KEY")
+RESEND_API_KEY = os.getenv("RESEND_API_KEY").strip()
 ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")
 RESEND_FROM_EMAIL = os.getenv(
     "RESEND_FROM_EMAIL",
