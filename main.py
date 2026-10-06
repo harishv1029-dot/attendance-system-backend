@@ -17,8 +17,8 @@ from database import get_connection, create_tables
 
 load_dotenv()
 
-RESEND_API_KEY = os.getenv("re_FAJjxkcf_NeV7KZJQfvF9qC8jUT4ckKw2")
-ADMIN_EMAIL = os.getenv("harishv1029@gmail.com")
+RESEND_API_KEY = os.getenv("RESEND_API_KEY")
+ADMIN_EMAIL = os.getenv("ADMIN_EMAIL")
 RESEND_FROM_EMAIL = os.getenv(
     "RESEND_FROM_EMAIL",
     "onboarding@resend.dev"
